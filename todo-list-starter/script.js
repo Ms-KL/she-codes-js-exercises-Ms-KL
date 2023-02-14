@@ -18,7 +18,7 @@ let todoList = document.getElementById("todo-list");
 // Step 8: The status is being updated in the list, but we aren’t actually seeing on the page.Let’s fix that. 
 // First we’ll move everything in our forEach to its own function:
 function createNewTodoTaskElement(task, index) {
-    // create a new p element and se tthe text of the new p element
+    // create a new p element and set the text of the new p element
     let newTodoTaskTextElement = document.createElement("p");
     newTodoTaskTextElement.innerText = task;
 
@@ -80,21 +80,36 @@ newTodoTaskElement.appendChild(moveDownButtonElement);
 // Step 11: Finally, let’s add the functionality to add new tasks. Create a new function called addTask:
 function addTask() {
     let newTask = document.getElementById("new-task-text");
+
     if (newTask.value) {
+    // If the field isn't empty (if it has a value)
+
         todoTasksText.push(newTask.value);
+        // Add the text to the global list (at the top of the file)
+
         todoTasksStatus.push(false);
+        // give it the status of false (the task isn't completed yet)
+
         newTask.value = "";
+        // reset the input to be blank
+
         updateTodoList();
     }
 }
 
 function updateTodoList() {
     // Step 9:
+
     let todoList = document.getElementById("todo-list");
+    // Get this element <ul id="todo-list"></ul> and call it todoList
+
     todoList.innerHTML = "";
+
     // Step 4: how can we tell when it’s complete? Let’s add a class to the tasks that are done (add index to for each)
     // loop through the todoTasksText array
+
     todoTasksText.forEach((task, index) => {
+    // Get the list of tasks. And do the function once for each task.
         // Step 9:
         let newTodoTaskElement = createNewTodoTaskElement(task, index);
         // append the li element to the ul element
