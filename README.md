@@ -1,17 +1,6 @@
-KEY:
-* She Codes Repo (SCR) = <u>SheCodesAus/she-codes-js-exercises-Ms-KL-Codes</u>
-* Ms-KL Repo (KLR) = <u>Ms-KL/she-codes-js-exercises-Ms-KL</u>
+# She Codes Plus Coursework: Javascript Exercises
 
----
-NOTES:
-* Ms-KL = primary personal account
-* Ms-KL-Codes = Requested by She Codes as a 2nd account for education account benefits
-* Ms-KL-Codes created SCR in error ---> Correct owner is Ms-KL 
-* Unable to transfer ownership of SCR from Ms-KL-Codes to Ms-KL 
-* To provide Ms-KL access to SCR, Ms-KL has forked the SCR to KLR
+_Note:_
 
-As a result: 
-* Ms-KL will be updating KLR
-* Ms-KL will send a pull request to Ms-KL-Codes to merge KLR into SCR
-* Ms-KL-Codes will approve the merge into SCR
-* Ms-KL-Codes will pull merged SCR changes into local
+- forked from [She Codes Classroom Repo](https://github.com/SheCodesAus/she-codes-html-css-exercises-Ms-KL) --> original contributions made by my inactive account [Ms-KL-Codes](https://github.com/Ms-KL-Codes)
+- primary account Ms-KL cannot contribute to the [She Codes Classroom Repo](https://github.com/SheCodesAus/she-codes-html-css-exercises-Ms-KL) --> repo forked as a result
